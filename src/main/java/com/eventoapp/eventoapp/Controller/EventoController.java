@@ -5,8 +5,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class EventoController {
+
     @RequestMapping("/cadastrarEvento")
     public String form(){
-        return "formEvento";
+        return "evento/formEvento";
     }
+
 }
